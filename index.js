@@ -3,7 +3,6 @@ let ans = -1;
 let highScore = 0;
 function num(){
     let numb = Math.trunc(Math.random()*20)
-    console.log(numb)
     ans = numb;
 }
 function guess(){
